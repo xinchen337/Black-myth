@@ -61,6 +61,24 @@
         .game-over-screen button:hover {
             background-color: #ffcc00;
         }
+        
+        .twitter-btn {
+            position: absolute;
+            bottom: 20px;
+            right: 20px;
+            background-color: #1da1f2;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            font-size: 18px;
+            border-radius: 5px;
+            cursor: pointer;
+            text-decoration: none;
+        }
+        
+        .twitter-btn:hover {
+            background-color: #ffcc00;
+        }
     </style>
 </head>
 
@@ -73,7 +91,7 @@
         <h1>游戏结束</h1>
         <button id="restartButton">开始游戏</button>
     </div>
-
+    <a href="https://twitter.com/Magic_grass99" target="_blank" class="twitter-btn">看看是哪个吗喽闲着没事做的这个</a>
     <script>
         const canvas = document.getElementById('gameCanvas');
         const ctx = canvas.getContext('2d');
